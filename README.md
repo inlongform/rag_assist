@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ## 2. install ollama
 
 #### b) Install ollama
-
+  - install from https://ollama.com/
 ```bash
 
 ollama pull nomic-embed-text:latest
