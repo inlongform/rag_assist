@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 
 # Folder containing your cleaned chunked docs
-CHUNKS_DIR = Path("docs/processed/chunks")
-OUTPUT_FILE = Path("docs/processed/isaacsim_valid_symbols.json")
+CHUNKS_DIR = Path("docs/sim_docs")
+OUTPUT_FILE = Path("docs/processed/sim_valid_symbols.json")
 
 valid_symbols = set()
 

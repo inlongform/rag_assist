@@ -53,9 +53,14 @@ ollama pull qwen2.5-coder:7b
     ```bash
       python combine_files.py
     ```
-  - Clean and chunk docs
+  - Clean and chunk docs (clean_line_nums.py removes line nums from some examples)
     ```bash
       python 1_deep_crawl_clean_updated.py
+    ```
+  - Extract and prepare symbols
+    ```bash
+      python combine_symbols.py
+      python clean_symbols.py
     ```
   - Start qDrant in docker
     ```bash
@@ -84,4 +89,7 @@ python ./app/app.py
 
 ```
 
-#### f) YAY!!!
+#### f) 
+
+  - navigate to http://127.0.0.1:7860
+  - YAY!!!  
